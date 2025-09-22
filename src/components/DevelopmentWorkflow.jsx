@@ -3,20 +3,20 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const icons = [
-  { top: 30, left: 30, src: "/images/workflow_icon/workflow1.png" },
-  { top: 30, left: 180, src: "/images/workflow_icon/workflow2.png" },
-  { top: 30, left: 300, src: "/images/workflow_icon/frame_2147208272.png" },
-  { top: 30, left: 420, src: "/images/workflow_icon/frame_2147208273.png" },
-  { top: 80, left: 480, src: "/images/workflow_icon/frame_2147208274.png" },
-  { top: 120, left: 90, src: "/images/workflow_icon/frame_2147208275.png" },
-  { top: 120, left: 180, src: "/images/workflow_icon/frame_2147208276.png" },
-  { top: 120, left: 300, src: "/images/workflow_icon/frame_2147208277.png" },
-  { top: 120, left: 420, src: "/images/workflow_icon/workflow1.png" },
-  { top: 220, left: 80, src: "/images/workflow_icon/frame_2147208279.png" },
-  { top: 230, left: 200, src: "/images/workflow_icon/frame_2147208280.png" },
-  { top: 230, left: 360, src: "/images/workflow_icon/frame_2147208281.png" },
-  { top: 230, left: 500, src: "/images/workflow_icon/frame_2147208282.png" },
-  { top: 230, left: 680, src: "/images/workflow_icon/frame_2147208283.png" },
+  { top: 30, left: 30, src: "/images/i1.png" },
+  { top: 30, left: 180, src: "/images/i2.png" },
+  { top: 30, left: 300, src: "/images/i3.png" },
+  { top: 30, left: 420, src: "/images/i4.png" },
+  { top: 80, left: 480, src: "/images/i5.png" },
+  { top: 120, left: 90, src: "/images/i6.png" },
+  { top: 120, left: 180, src: "/images/i7.png" },
+  { top: 120, left: 300, src: "/images/i8.png" },
+  { top: 120, left: 420, src: "/images/i9.png" },
+  { top: 220, left: 80, src: "/images/i10.png" },
+  { top: 230, left: 200, src: "/images/i11.png" },
+  { top: 230, left: 360, src: "/images/i12.png" },
+  { top: 230, left: 500, src: "/images/i13.png" },
+  { top: 230, left: 680, src: "/images/i14.png" },
 ];
 
 export default function Workflow() {
