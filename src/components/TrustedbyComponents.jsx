@@ -8,7 +8,7 @@ function TrustedbyComponents() {
         Trusted By 100+ Companies including
       </h2>
 
-      {/* Logo Grid */}
+      {/* Logo Grid  >>*/}
       <div className="flex justify-center items-center gap-8 flex-wrap">
         <Image src="/images/undp.png" alt="UNDP" width={100} height={50} />
         <Image src="/images/itc.png" alt="ITC" width={100} height={50} />

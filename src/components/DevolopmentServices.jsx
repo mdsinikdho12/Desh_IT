@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+// Services Data >>
 const services = [
   {
     title: "Mobile App Development",

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function API_Development() {
   return (
     <div className="relative flex items-center justify-center my-12 w-80 h-80">
-      {/* Rotating Circle with Icons */}
+      {/* Rotating Circle with Icons  >>*/}
       <motion.div
         className="w-full h-full border-2 border-gray-200 rounded-full"
         animate={{ rotate: 360 }}
@@ -14,7 +14,7 @@ function API_Development() {
           repeat: Infinity,
           ease: "linear",
         }}>
-        {/* Icons Around Circle */}
+        {/* Icons Around Circle  >>*/}
         <div className="absolute -top-6 left-1/2 transform -translate-x-1/2">
           <img
             src="/images/Rotating_Circle_img_1 .png"
@@ -59,7 +59,7 @@ function API_Development() {
         </div>
       </motion.div>
 
-      {/* Static Center Text (layered above) */}
+      {/* Static Center Text layered above >> */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center pointer-events-none">
         <h2 className="text-xl font-semibold">API Development</h2>
         <p className="text-gray-500 text-sm mt-2">

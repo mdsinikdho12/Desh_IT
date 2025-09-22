@@ -38,7 +38,7 @@ function ProjectPortfolio() {
         <Link
           href="/Read more case studies"
           aria-label="Read more case studies"
-          className="w-[200px] text-center font-semibold p-2 rounded text-white bg-orange-600 hover:bg-orange-700 transition">
+          className="w-[200px] text-center font-light p-2 rounded text-white bg-orange-600 hover:bg-orange-700 transition">
           Read more case studies
         </Link>
       </div>

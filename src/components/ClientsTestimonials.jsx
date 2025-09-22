@@ -47,7 +47,7 @@ export default function ClientTestimonialSlider() {
           <b>Words from Our Clients</b>
         </p>
 
-        {/* Image */}
+        {/* Image  >>*/}
         <div className="flex justify-center mb-6">
           <Image
             src={testimonial.image}
@@ -58,7 +58,7 @@ export default function ClientTestimonialSlider() {
           />
         </div>
 
-        {/* Animated Testimonial */}
+        {/* Animated Testimonial >> */}
         <AnimatePresence mode="wait">
           <motion.div
             key={index}
@@ -66,12 +66,12 @@ export default function ClientTestimonialSlider() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.6 }}
-            className="border-dotted border-gray-300 rounded-lg p-6 bg-gray-50 text-left text-gray-700 text-sm sm:text-base mb-6">
+            className=" border border-dotted border-gray-700 rounded-lg p-6  text-left text-gray-700 text-sm sm:text-base mb-6">
             <p className="leading-relaxed">“{testimonial.quote}”</p>
           </motion.div>
         </AnimatePresence>
 
-        {/* Attribution */}
+        {/* Attribution  >>*/}
         <p className="text-sm text-gray-600">
           <span className="font-semibold text-gray-800">
             {testimonial.name}

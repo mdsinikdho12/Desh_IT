@@ -31,14 +31,14 @@ export default function Workflow() {
         while maintaining high-quality standards.
       </p>
 
-      {/* Centered scroll wrapper */}
+      {/*  scroll wrapper >> */}
       <div className="w-full flex justify-center overflow-x-auto sm:overflow-visible">
         <motion.div
           className="relative w-[720px] sm:w-full max-w-4xl h-[400px]"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}>
-          {/* Yellow Path with Draw Animation */}
+          {/* Path Draw Animation   >>*/}
           <motion.svg
             className="absolute top-0 left-0 w-full h-full"
             xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ export default function Workflow() {
             />
           </motion.svg>
 
-          {/* Animated Icons */}
+          {/* Animated Icons  >>*/}
           {icons.map((icon, i) => (
             <motion.div
               key={i}

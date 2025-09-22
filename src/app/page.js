@@ -8,6 +8,7 @@ import DevelopmentWorkflow from "@/components/DevelopmentWorkflow";
 import AdvancedTech from "./../components/Technology";
 import ProjectPortfolio from "./../components/ProjectPortfolio";
 import ClientTestimonialSlider from "./../components/ClientsTestimonials";
+
 export default function OutsourcingServices() {
   return (
     <div className="min-h-screen bg-white text-gray-800 px-4 py-8">
@@ -61,7 +62,7 @@ export default function OutsourcingServices() {
       {/*  */}
       <AdvancedTech />
 
-      {/*  */}
+      {/* ProjectPortfolio*/}
       <ProjectPortfolio />
       {/*  */}
 
