@@ -17,7 +17,7 @@ const DeshiITBDIntro = () => {
   return (
     <Layout pageTitle="Company">
       {/* Company Intro part  >>*/}
-      <section className="text-gray-800 px-6 py-12 md:px-20">
+      <section className="text-gray-800 px-6 overflow-x-hidden py-12 md:px-20">
         <div className="flex flex-col lg:flex-row items-center gap-10 mb-16">
           <motion.div
             className="flex-1"
@@ -95,11 +95,13 @@ const DeshiITBDIntro = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
-        className="relative w-[100vw] left-1/2 right-1/2 -translate-x-1/2 py-16 bg-gradient-to-r from-[#FA7470] to-[#FA9370] flex items-center justify-center">
-        <div className="max-w-4xl text-center px-6">
-          <h2 className="text-4xl font-bold text-white mb-4">How We Work</h2>
+        className="w-full py-16 bg-gradient-to-r from-[#FA7470] to-[#FA9370]">
+        <div className="max-w-4xl mx-auto text-center px-6">
+          <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">
+            How We Work
+          </h2>
           <p
-            className={`${poppins.className} text-white text-left mb-6 font-[25px]`}>
+            className={`${poppins.className} text-white text-left mb-6 text-base md:text-lg leading-relaxed`}>
             We believe in agile development. We manage our projects by following
             Scrum, the most popular widely practiced agile approach. Delivering
             working applications on budget, and on time is always our concern
